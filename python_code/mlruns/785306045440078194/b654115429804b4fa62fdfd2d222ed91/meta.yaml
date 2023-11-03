@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/b654115429804b4fa62fdfd2d222ed91/artifacts
+end_time: 1698949064719
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: b654115429804b4fa62fdfd2d222ed91
+run_name: Naive Bayes
+run_uuid: b654115429804b4fa62fdfd2d222ed91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949064474
+status: 3
+tags: []
+user_id: mlam

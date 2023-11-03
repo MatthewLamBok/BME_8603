@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/8e52e555bc3b4ccf894c6e6697d3689c/artifacts
+end_time: 1698949813998
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 8e52e555bc3b4ccf894c6e6697d3689c
+run_name: Decision Tree Classifier
+run_uuid: 8e52e555bc3b4ccf894c6e6697d3689c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949813963
+status: 3
+tags: []
+user_id: mlam

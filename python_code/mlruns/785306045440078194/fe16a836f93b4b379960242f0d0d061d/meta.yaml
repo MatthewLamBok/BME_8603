@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/fe16a836f93b4b379960242f0d0d061d/artifacts
+end_time: 1698949593735
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: fe16a836f93b4b379960242f0d0d061d
+run_name: Extra Trees Classifier
+run_uuid: fe16a836f93b4b379960242f0d0d061d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949593675
+status: 3
+tags: []
+user_id: mlam

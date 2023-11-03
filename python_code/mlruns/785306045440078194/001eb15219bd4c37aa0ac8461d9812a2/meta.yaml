@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/001eb15219bd4c37aa0ac8461d9812a2/artifacts
+end_time: 1698950383466
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 001eb15219bd4c37aa0ac8461d9812a2
+run_name: K Neighbors Classifier
+run_uuid: 001eb15219bd4c37aa0ac8461d9812a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698950383407
+status: 3
+tags: []
+user_id: mlam

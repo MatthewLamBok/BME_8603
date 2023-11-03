@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/dafdc3b66d664cbb92970e7efaf426cc/artifacts
+end_time: 1698949591967
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: dafdc3b66d664cbb92970e7efaf426cc
+run_name: Logistic Regression
+run_uuid: dafdc3b66d664cbb92970e7efaf426cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949591648
+status: 3
+tags: []
+user_id: mlam

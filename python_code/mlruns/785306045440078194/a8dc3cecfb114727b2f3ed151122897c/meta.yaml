@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/a8dc3cecfb114727b2f3ed151122897c/artifacts
+end_time: 1698950327515
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: a8dc3cecfb114727b2f3ed151122897c
+run_name: Quadratic Discriminant Analysis
+run_uuid: a8dc3cecfb114727b2f3ed151122897c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698950327486
+status: 3
+tags: []
+user_id: mlam

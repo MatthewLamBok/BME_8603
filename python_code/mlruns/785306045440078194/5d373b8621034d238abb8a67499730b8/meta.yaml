@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/5d373b8621034d238abb8a67499730b8/artifacts
+end_time: 1698949592768
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 5d373b8621034d238abb8a67499730b8
+run_name: Ridge Classifier
+run_uuid: 5d373b8621034d238abb8a67499730b8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949592708
+status: 3
+tags: []
+user_id: mlam

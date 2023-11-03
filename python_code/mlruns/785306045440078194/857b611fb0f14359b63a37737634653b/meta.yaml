@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/857b611fb0f14359b63a37737634653b/artifacts
+end_time: 1698947966080
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 857b611fb0f14359b63a37737634653b
+run_name: SVM - Linear Kernel
+run_uuid: 857b611fb0f14359b63a37737634653b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698947966034
+status: 3
+tags: []
+user_id: mlam

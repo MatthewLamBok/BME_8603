@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/500c9ab56cf44433b9d4cd19db938589/artifacts
+end_time: 1698950328025
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 500c9ab56cf44433b9d4cd19db938589
+run_name: Ada Boost Classifier
+run_uuid: 500c9ab56cf44433b9d4cd19db938589
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698950327996
+status: 3
+tags: []
+user_id: mlam

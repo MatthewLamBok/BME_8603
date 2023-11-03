@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/5342cb1b72124454a9bbafa230042d4c/artifacts
+end_time: 1698949781036
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 5342cb1b72124454a9bbafa230042d4c
+run_name: Session Initialized b782
+run_uuid: 5342cb1b72124454a9bbafa230042d4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949779977
+status: 3
+tags: []
+user_id: mlam

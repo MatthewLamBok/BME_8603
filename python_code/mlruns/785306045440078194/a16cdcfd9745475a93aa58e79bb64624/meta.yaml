@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/a16cdcfd9745475a93aa58e79bb64624/artifacts
+end_time: 1698954786041
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: a16cdcfd9745475a93aa58e79bb64624
+run_name: Linear Discriminant Analysis
+run_uuid: a16cdcfd9745475a93aa58e79bb64624
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698954786008
+status: 3
+tags: []
+user_id: mlam

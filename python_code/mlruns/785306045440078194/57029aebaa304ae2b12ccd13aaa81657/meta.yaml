@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mlam/Documents/BME_ML_course/python_code/mlruns/785306045440078194/57029aebaa304ae2b12ccd13aaa81657/artifacts
+end_time: 1698949065676
+entry_point_name: ''
+experiment_id: '785306045440078194'
+lifecycle_stage: active
+run_id: 57029aebaa304ae2b12ccd13aaa81657
+run_name: Gradient Boosting Classifier
+run_uuid: 57029aebaa304ae2b12ccd13aaa81657
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1698949065623
+status: 3
+tags: []
+user_id: mlam
