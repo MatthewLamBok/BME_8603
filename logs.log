@@ -1,0 +1,286 @@
+2023-11-06 04:15:12,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:15:12,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:15:12,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:15:12,043:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:15:12,627:INFO:Initializing load_model()
+2023-11-06 04:15:12,627:INFO:load_model(model_name=abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:10,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:16:10,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:16:10,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:16:10,239:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-06 04:16:10,817:INFO:Initializing load_model()
+2023-11-06 04:16:10,817:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:13,294:INFO:Initializing load_model()
+2023-11-06 04:16:13,295:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:13,926:INFO:Initializing load_model()
+2023-11-06 04:16:13,926:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:14,437:INFO:Initializing load_model()
+2023-11-06 04:16:14,438:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:15,989:INFO:Initializing load_model()
+2023-11-06 04:16:15,989:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:16,053:INFO:Initializing predict_model()
+2023-11-06 04:16:16,054:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b2850cd0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33c6fcc670>)
+2023-11-06 04:16:16,054:INFO:Checking exceptions
+2023-11-06 04:16:16,054:INFO:Preloading libraries
+2023-11-06 04:16:16,054:INFO:Set up data.
+2023-11-06 04:16:16,057:INFO:Set up index.
+2023-11-06 04:16:19,136:INFO:Initializing load_model()
+2023-11-06 04:16:19,136:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:28,647:INFO:Initializing load_model()
+2023-11-06 04:16:28,648:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:30,954:INFO:Initializing load_model()
+2023-11-06 04:16:30,954:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:16:31,021:INFO:Initializing predict_model()
+2023-11-06 04:16:31,022:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b279fc70>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33c6fda4c0>)
+2023-11-06 04:16:31,022:INFO:Checking exceptions
+2023-11-06 04:16:31,022:INFO:Preloading libraries
+2023-11-06 04:16:31,022:INFO:Set up data.
+2023-11-06 04:16:31,025:INFO:Set up index.
+2023-11-06 04:17:31,299:INFO:Initializing load_model()
+2023-11-06 04:17:31,299:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 04:17:32,990:INFO:Initializing load_model()
+2023-11-06 04:17:32,990:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:16,986:INFO:Initializing load_model()
+2023-11-06 11:00:16,986:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:17,591:INFO:Initializing load_model()
+2023-11-06 11:00:17,591:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:18,323:INFO:Initializing load_model()
+2023-11-06 11:00:18,323:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:19,033:INFO:Initializing load_model()
+2023-11-06 11:00:19,033:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:20,413:INFO:Initializing load_model()
+2023-11-06 11:00:20,413:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:21,772:INFO:Initializing load_model()
+2023-11-06 11:00:21,772:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:21,833:INFO:Initializing predict_model()
+2023-11-06 11:00:21,833:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b28457c0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33e8b8a040>)
+2023-11-06 11:00:21,833:INFO:Checking exceptions
+2023-11-06 11:00:21,833:INFO:Preloading libraries
+2023-11-06 11:00:21,833:INFO:Set up data.
+2023-11-06 11:00:21,837:INFO:Set up index.
+2023-11-06 11:00:31,485:INFO:Initializing load_model()
+2023-11-06 11:00:31,485:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:32,238:INFO:Initializing load_model()
+2023-11-06 11:00:32,238:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:33,850:INFO:Initializing load_model()
+2023-11-06 11:00:33,850:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:33,925:INFO:Initializing predict_model()
+2023-11-06 11:00:33,925:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b2809df0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33e8bf2e50>)
+2023-11-06 11:00:33,925:INFO:Checking exceptions
+2023-11-06 11:00:33,925:INFO:Preloading libraries
+2023-11-06 11:00:33,925:INFO:Set up data.
+2023-11-06 11:00:33,928:INFO:Set up index.
+2023-11-06 11:00:38,405:INFO:Initializing load_model()
+2023-11-06 11:00:38,405:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:39,944:INFO:Initializing load_model()
+2023-11-06 11:00:39,945:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:40,021:INFO:Initializing predict_model()
+2023-11-06 11:00:40,021:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b288f9d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33b272ce50>)
+2023-11-06 11:00:40,021:INFO:Checking exceptions
+2023-11-06 11:00:40,021:INFO:Preloading libraries
+2023-11-06 11:00:40,021:INFO:Set up data.
+2023-11-06 11:00:40,024:INFO:Set up index.
+2023-11-06 11:00:46,256:INFO:Initializing load_model()
+2023-11-06 11:00:46,256:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:47,265:INFO:Initializing load_model()
+2023-11-06 11:00:47,265:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:47,336:INFO:Initializing predict_model()
+2023-11-06 11:00:47,336:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33c6f8a340>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33c6fdad30>)
+2023-11-06 11:00:47,336:INFO:Checking exceptions
+2023-11-06 11:00:47,337:INFO:Preloading libraries
+2023-11-06 11:00:47,337:INFO:Set up data.
+2023-11-06 11:00:47,339:INFO:Set up index.
+2023-11-06 11:00:48,951:INFO:Initializing load_model()
+2023-11-06 11:00:48,951:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:50,043:INFO:Initializing load_model()
+2023-11-06 11:00:50,043:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:00:50,108:INFO:Initializing predict_model()
+2023-11-06 11:00:50,109:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b2814400>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33c6f079d0>)
+2023-11-06 11:00:50,109:INFO:Checking exceptions
+2023-11-06 11:00:50,109:INFO:Preloading libraries
+2023-11-06 11:00:50,109:INFO:Set up data.
+2023-11-06 11:00:50,112:INFO:Set up index.
+2023-11-06 11:01:40,571:INFO:Initializing load_model()
+2023-11-06 11:01:40,571:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-06 11:01:40,653:INFO:Initializing predict_model()
+2023-11-06 11:01:40,653:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f33b289c3a0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f33c6fcc700>)
+2023-11-06 11:01:40,653:INFO:Checking exceptions
+2023-11-06 11:01:40,653:INFO:Preloading libraries
+2023-11-06 11:01:40,654:INFO:Set up data.
+2023-11-06 11:01:40,657:INFO:Set up index.

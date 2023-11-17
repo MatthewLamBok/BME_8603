@@ -1,5 +1,5 @@
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote set-url origin git@github.com:MatthewLamBok/BME_8603.git
@@ -11,3 +11,7 @@ git push -u origin main
 git remote add origin git@github.com:MatthewLamBok/BME_8603.git
 git branch -M main
 git push -u origin main
+
+
+
+git remote set-url origin https://huggingface.co/spaces/MatBok/test_abalone_v2

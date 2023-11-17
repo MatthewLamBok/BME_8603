@@ -3,9 +3,10 @@ from pycaret.classification import load_model, predict_model
 import pandas as pd
 
 # Load the model
-model = load_model('abalone_model')
+model = load_model('./abalone_model')
 
-st.title('Abalone Sex Classification')
+st.title('Abalone Gender/Sex Classification')
+st.markdown('<p style="font-size: 20px;">Matthew Lam 500959262 || EE8603 701E - Sel Topics: Computer Engr I - F2023</p>', unsafe_allow_html=True)
 
 # Define initial state for sliders if not already set
 if 'length' not in st.session_state:
@@ -91,3 +92,9 @@ if st.button('Predict Sex'):
     predicted_probability = prediction['prediction_score'][0]  
     
     st.write(f"The predicted sex of the abalone is: {predicted_label} with a probability of {predicted_probability:.2f}")
+
+
+
+github_file_url = 'https://github.com/your_username/your_repository/blob/main/your_file.py'
+
+st.markdown(f'Check out the [code on GitHub]({github_file_url})')

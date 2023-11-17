@@ -5,6 +5,41 @@ from sklearn.model_selection import train_test_split
 from imblearn.over_sampling import SMOTE
 import matplotlib.pyplot as plt
 from pycaret.classification import *
+import seaborn as sns
+import os
+
+def info_display(data):
+    print('>>First 5 Data Points')   
+    print(data.head(), '\n\n')
+    
+    print('>>Data Information')    
+    print(data.describe(), '\n\n')
+    
+    print('>>Missing Data')
+    print(data.isnull().sum(), '\n\n')
+    
+    print('>>Univariate Analysis: Sex distribution')
+    print(data['Sex'].value_counts(), '\n\n')
+    sns.countplot(x='Sex', data=data)
+    plt.title('Distribution of Sex in Abalones')
+    plt.show()
+    
+    print('>>Bivariate Analysis: Relationships between features and the Sex')
+    sns.pairplot(data, hue='Sex')
+    plt.title('Pairwise Relationships by Sex')
+    plt.show()
+    
+    print('>>Correlation matrix to see potential relationships')
+    corr_matrix = data.iloc[:, 1:].corr() # excluding 'Sex' for the correlation matrix as it's categorical
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(corr_matrix, annot=True)
+    plt.title('Correlation Matrix of Abalone Features')
+    plt.show()
+
+
+
+
+
 
 def normalize_data(df, ground_truth_col, normalization_type='z-score'):
 

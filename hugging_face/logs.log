@@ -2405,3 +2405,55 @@ pickle: {'deps_info': {'pip': '23.3', 'setuptools': '68.0.0', 'pycaret': '3.1.0'
 2023-11-06 04:12:12,195:INFO:Preloading libraries
 2023-11-06 04:12:12,195:INFO:Set up data.
 2023-11-06 04:12:12,198:INFO:Set up index.
+2023-11-15 21:55:57,581:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:55:57,581:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:55:57,581:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:55:57,581:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:55:58,116:INFO:Initializing load_model()
+2023-11-15 21:55:58,116:INFO:load_model(model_name=./hugging_face/abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-15 21:57:57,224:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:57:57,225:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:57:57,225:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:57:57,225:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-15 21:57:57,856:INFO:Initializing load_model()
+2023-11-15 21:57:57,856:INFO:Initializing load_model()
+2023-11-15 21:57:57,857:INFO:load_model(model_name=./abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-15 21:57:57,857:INFO:load_model(model_name=./abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-15 21:57:57,993:INFO:Transformation Pipeline and Model Successfully Loaded
+2023-11-15 21:58:05,048:INFO:Initializing load_model()
+2023-11-15 21:58:05,048:INFO:load_model(model_name=./abalone_model, platform=None, authentication=None, verbose=True)
+2023-11-15 21:58:05,125:INFO:Initializing predict_model()
+2023-11-15 21:58:05,125:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f550f59d070>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(inclu...
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('actual_estimator',
+                 VotingClassifier(estimators=[('Linear Discriminant Analysis',
+                                               LinearDiscriminantAnalysis()),
+                                              ('Logistic Regression',
+                                               LogisticRegression(max_iter=1000,
+                                                                  random_state=12)),
+                                              ('Random Forest Classifier',
+                                               RandomForestClassifier(n_jobs=-1,
+                                                                      random_state=12))],
+                                  n_jobs=-1, voting='soft'))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f550f421ca0>)
+2023-11-15 21:58:05,126:INFO:Checking exceptions
+2023-11-15 21:58:05,126:INFO:Preloading libraries
+2023-11-15 21:58:05,126:INFO:Set up data.
+2023-11-15 21:58:05,130:INFO:Set up index.
