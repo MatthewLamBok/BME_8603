@@ -28,12 +28,19 @@ def info_display(data):
     sns.pairplot(data, hue='Sex')
     plt.title('Pairwise Relationships by Sex')
     plt.show()
+
     
-    print('>>Correlation matrix to see potential relationships')
-    corr_matrix = data.iloc[:, 1:].corr() # excluding 'Sex' for the correlation matrix as it's categorical
-    plt.figure(figsize=(10, 8))
-    sns.heatmap(corr_matrix, annot=True)
-    plt.title('Correlation Matrix of Abalone Features')
+    # Encoding the 'Sex' attribute
+    sex_encoding = {'M': 0, 'F': 1, 'I': 2}
+    data_encode['Sex_encoded'] = data['Sex'].map(sex_encoding)
+    
+    # Calculate the correlation matrix
+    correlation_matrix = data_encode.corr()
+    
+    # Plotting the heatmap
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
+    plt.title('Correlation Matrix of Abalone Dataset')
     plt.show()
 
 

@@ -5662,3 +5662,47 @@ information and possible workarounds, please see
 2023-11-16 01:33:16,075:WARNING:/home/mlam/anaconda3/envs/py39/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
   warnings.warn(
 
+2023-11-18 15:39:43,870:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-18 15:39:43,870:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-18 15:39:43,870:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-18 15:39:43,870:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-11-18 16:02:22,988:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:22,991:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:22,993:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:22,995:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:22,997:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:22,999:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:23,001:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 16:02:23,003:WARNING:/tmp/ipykernel_4336/4205979969.py:22: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  anova_results = anova_results.append({'Variable': column,
+
+2023-11-18 21:31:08,495:WARNING:/tmp/ipykernel_4336/2954926517.py:14: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  correlations = data.corr()['Sex_encoded'].drop('Sex_encoded')
+
+2023-11-18 21:31:20,831:WARNING:/tmp/ipykernel_4336/4166981781.py:14: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  correlations = data.corr()['Sex_encoded'].drop('Sex_encoded')
+
+2023-11-18 21:31:40,633:WARNING:/tmp/ipykernel_4336/1011701773.py:14: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  correlations = data.corr()['Sex'].drop('Sex')
+
+2023-11-18 21:34:19,342:WARNING:/tmp/ipykernel_4336/2616037072.py:19: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  correlation_matrix = data.corr()
+
