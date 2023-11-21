@@ -31,7 +31,7 @@ def info_display(data):
 
     
     # Encoding the 'Sex' attribute
-    sex_encoding = {'M': 0, 'F': 1, 'I': 2}
+    sex_encoding = {'F': 0, 'I': 1, 'M': 2}
     data_encode['Sex_encoded'] = data['Sex'].map(sex_encoding)
     
     # Calculate the correlation matrix
