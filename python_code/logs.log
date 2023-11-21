@@ -6920,3 +6920,281 @@ information and possible workarounds, please see
 2023-11-21 07:03:03,198:INFO:Copying training dataset
 2023-11-21 07:03:03,198:INFO:Plot type: ks
 2023-11-21 07:03:03,199:INFO:Generating predictions / predict_proba on X_test
+2023-11-21 07:13:55,982:INFO:Initializing finalize_model()
+2023-11-21 07:13:55,982:INFO:finalize_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fe14dfa6d30>, estimator=VotingClassifier(estimators=[('Logistic Regression',
+                              LogisticRegression(C=1.0, class_weight=None,
+                                                 dual=False, fit_intercept=True,
+                                                 intercept_scaling=1,
+                                                 l1_ratio=None, max_iter=1000,
+                                                 multi_class='auto',
+                                                 n_jobs=None, penalty='l2',
+                                                 random_state=20,
+                                                 solver='lbfgs', tol=0.0001,
+                                                 verbose=0, warm_start=False)),
+                             ('Linear Discriminant Analysis',
+                              LinearDiscriminantAnalysis(covari...
+                                                     max_features='sqrt',
+                                                     max_leaf_nodes=None,
+                                                     max_samples=None,
+                                                     min_impurity_decrease=0.0,
+                                                     min_samples_leaf=1,
+                                                     min_samples_split=2,
+                                                     min_weight_fraction_leaf=0.0,
+                                                     n_estimators=100,
+                                                     n_jobs=-1, oob_score=False,
+                                                     random_state=20, verbose=0,
+                                                     warm_start=False))],
+                 flatten_transform=True, n_jobs=-1, verbose=False,
+                 voting='soft',
+                 weights=[0.67, 0.18000000000000002, 0.48000000000000004]), fit_kwargs=None, groups=None, model_only=False, experiment_custom_tags=None)
+2023-11-21 07:13:55,984:INFO:Finalizing VotingClassifier(estimators=[('Logistic Regression',
+                              LogisticRegression(C=1.0, class_weight=None,
+                                                 dual=False, fit_intercept=True,
+                                                 intercept_scaling=1,
+                                                 l1_ratio=None, max_iter=1000,
+                                                 multi_class='auto',
+                                                 n_jobs=None, penalty='l2',
+                                                 random_state=20,
+                                                 solver='lbfgs', tol=0.0001,
+                                                 verbose=0, warm_start=False)),
+                             ('Linear Discriminant Analysis',
+                              LinearDiscriminantAnalysis(covari...
+                                                     max_features='sqrt',
+                                                     max_leaf_nodes=None,
+                                                     max_samples=None,
+                                                     min_impurity_decrease=0.0,
+                                                     min_samples_leaf=1,
+                                                     min_samples_split=2,
+                                                     min_weight_fraction_leaf=0.0,
+                                                     n_estimators=100,
+                                                     n_jobs=-1, oob_score=False,
+                                                     random_state=20, verbose=0,
+                                                     warm_start=False))],
+                 flatten_transform=True, n_jobs=-1, verbose=False,
+                 voting='soft',
+                 weights=[0.67, 0.18000000000000002, 0.48000000000000004])
+2023-11-21 07:13:55,989:INFO:Initializing create_model()
+2023-11-21 07:13:55,989:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fe14dfa6d30>, estimator=VotingClassifier(estimators=[('Logistic Regression',
+                              LogisticRegression(C=1.0, class_weight=None,
+                                                 dual=False, fit_intercept=True,
+                                                 intercept_scaling=1,
+                                                 l1_ratio=None, max_iter=1000,
+                                                 multi_class='auto',
+                                                 n_jobs=None, penalty='l2',
+                                                 random_state=20,
+                                                 solver='lbfgs', tol=0.0001,
+                                                 verbose=0, warm_start=False)),
+                             ('Linear Discriminant Analysis',
+                              LinearDiscriminantAnalysis(covari...
+                                                     max_features='sqrt',
+                                                     max_leaf_nodes=None,
+                                                     max_samples=None,
+                                                     min_impurity_decrease=0.0,
+                                                     min_samples_leaf=1,
+                                                     min_samples_split=2,
+                                                     min_weight_fraction_leaf=0.0,
+                                                     n_estimators=100,
+                                                     n_jobs=-1, oob_score=False,
+                                                     random_state=20, verbose=0,
+                                                     warm_start=False))],
+                 flatten_transform=True, n_jobs=-1, verbose=False,
+                 voting='soft',
+                 weights=[0.67, 0.18000000000000002, 0.48000000000000004]), fold=None, round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, model_only=False, return_train_score=False, kwargs={})
+2023-11-21 07:13:55,989:INFO:Checking exceptions
+2023-11-21 07:13:55,991:INFO:Importing libraries
+2023-11-21 07:13:55,991:INFO:Copying training dataset
+2023-11-21 07:13:55,991:INFO:Defining folds
+2023-11-21 07:13:55,991:INFO:Declaring metric variables
+2023-11-21 07:13:55,991:INFO:Importing untrained model
+2023-11-21 07:13:55,992:INFO:Declaring custom model
+2023-11-21 07:13:55,994:INFO:Voting Classifier Imported successfully
+2023-11-21 07:13:55,995:INFO:Cross validation set to False
+2023-11-21 07:13:55,995:INFO:Fitting Model
+2023-11-21 07:13:57,367:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer(add_indicato...
+                                                                      max_leaf_nodes=None,
+                                                                      max_samples=None,
+                                                                      min_impurity_decrease=0.0,
+                                                                      min_samples_leaf=1,
+                                                                      min_samples_split=2,
+                                                                      min_weight_fraction_leaf=0.0,
+                                                                      n_estimators=100,
+                                                                      n_jobs=-1,
+                                                                      oob_score=False,
+                                                                      random_state=20,
+                                                                      verbose=0,
+                                                                      warm_start=False))],
+                                  flatten_transform=True, n_jobs=-1,
+                                  verbose=False, voting='soft',
+                                  weights=[0.67, 0.18000000000000002,
+                                           0.48000000000000004]))],
+         verbose=False)
+2023-11-21 07:13:57,367:INFO:create_model() successfully completed......................................
+2023-11-21 07:13:57,502:INFO:_master_model_container: 19
+2023-11-21 07:13:57,502:INFO:_display_container: 4
+2023-11-21 07:13:57,513:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer(add_indicato...
+                                                                      max_leaf_nodes=None,
+                                                                      max_samples=None,
+                                                                      min_impurity_decrease=0.0,
+                                                                      min_samples_leaf=1,
+                                                                      min_samples_split=2,
+                                                                      min_weight_fraction_leaf=0.0,
+                                                                      n_estimators=100,
+                                                                      n_jobs=-1,
+                                                                      oob_score=False,
+                                                                      random_state=20,
+                                                                      verbose=0,
+                                                                      warm_start=False))],
+                                  flatten_transform=True, n_jobs=-1,
+                                  verbose=False, voting='soft',
+                                  weights=[0.67, 0.18000000000000002,
+                                           0.48000000000000004]))],
+         verbose=False)
+2023-11-21 07:13:57,513:INFO:finalize_model() successfully completed......................................
+2023-11-21 07:13:57,685:INFO:Initializing predict_model()
+2023-11-21 07:13:57,685:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fe14dfa6d30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer(add_indicato...
+                                                                      max_leaf_nodes=None,
+                                                                      max_samples=None,
+                                                                      min_impurity_decrease=0.0,
+                                                                      min_samples_leaf=1,
+                                                                      min_samples_split=2,
+                                                                      min_weight_fraction_leaf=0.0,
+                                                                      n_estimators=100,
+                                                                      n_jobs=-1,
+                                                                      oob_score=False,
+                                                                      random_state=20,
+                                                                      verbose=0,
+                                                                      warm_start=False))],
+                                  flatten_transform=True, n_jobs=-1,
+                                  verbose=False, voting='soft',
+                                  weights=[0.67, 0.18000000000000002,
+                                           0.48000000000000004]))],
+         verbose=False), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fe14d364a60>)
+2023-11-21 07:13:57,685:INFO:Checking exceptions
+2023-11-21 07:13:57,685:INFO:Preloading libraries
+2023-11-21 07:13:57,688:INFO:Set up data.
+2023-11-21 07:13:57,692:INFO:Set up index.
+2023-11-21 07:13:57,761:WARNING:/home/mlam/anaconda3/envs/py39/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2023-11-21 07:13:57,766:WARNING:/home/mlam/anaconda3/envs/py39/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2023-11-21 07:13:57,770:WARNING:/home/mlam/anaconda3/envs/py39/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1396: UserWarning: Note that pos_label (set to 'M') is ignored when average != 'binary' (got 'weighted'). You may use labels=[pos_label] to specify a single positive class.
+  warnings.warn(
+
+2023-11-21 07:14:01,443:INFO:Initializing save_model()
+2023-11-21 07:14:01,443:INFO:save_model(model=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer(add_indicato...
+                                                                      max_leaf_nodes=None,
+                                                                      max_samples=None,
+                                                                      min_impurity_decrease=0.0,
+                                                                      min_samples_leaf=1,
+                                                                      min_samples_split=2,
+                                                                      min_weight_fraction_leaf=0.0,
+                                                                      n_estimators=100,
+                                                                      n_jobs=-1,
+                                                                      oob_score=False,
+                                                                      random_state=20,
+                                                                      verbose=0,
+                                                                      warm_start=False))],
+                                  flatten_transform=True, n_jobs=-1,
+                                  verbose=False, voting='soft',
+                                  weights=[0.67, 0.18000000000000002,
+                                           0.48000000000000004]))],
+         verbose=False), model_name=abolone_model_All, prep_pipe_=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer(a...
+                                                                   include_bias=False,
+                                                                   interaction_only=False,
+                                                                   order='C'))),
+                ('balance',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=FixImbalancer(estimator=SMOTE(k_neighbors=5,
+                                                                              n_jobs=None,
+                                                                              random_state=20,
+                                                                              sampling_strategy='auto')))),
+                ('normalize',
+                 TransformerWrapper(exclude=None, include=None,
+                                    transformer=StandardScaler(copy=True,
+                                                               with_mean=True,
+                                                               with_std=True)))],
+         verbose=False), verbose=True, use_case=MLUsecase.CLASSIFICATION, kwargs={})
+2023-11-21 07:14:01,443:INFO:Adding model into prep_pipe
+2023-11-21 07:14:01,443:WARNING:Only Model saved as it was a pipeline.
+2023-11-21 07:14:01,495:INFO:abolone_model_All.pkl saved in current working directory
+2023-11-21 07:14:01,506:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(exclude=None, include=None,
+                                               transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Length', 'Diameter', 'Height',
+                                             'Whole_weight', 'Shucked_weight',
+                                             'Viscera_weight', 'Shell_weight',
+                                             'Rings'],
+                                    transformer=SimpleImputer(add_indicato...
+                                                                      max_leaf_nodes=None,
+                                                                      max_samples=None,
+                                                                      min_impurity_decrease=0.0,
+                                                                      min_samples_leaf=1,
+                                                                      min_samples_split=2,
+                                                                      min_weight_fraction_leaf=0.0,
+                                                                      n_estimators=100,
+                                                                      n_jobs=-1,
+                                                                      oob_score=False,
+                                                                      random_state=20,
+                                                                      verbose=0,
+                                                                      warm_start=False))],
+                                  flatten_transform=True, n_jobs=-1,
+                                  verbose=False, voting='soft',
+                                  weights=[0.67, 0.18000000000000002,
+                                           0.48000000000000004]))],
+         verbose=False)
+2023-11-21 07:14:01,506:INFO:save_model() successfully completed......................................
